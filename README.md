@@ -1,4 +1,9 @@
 Запуск проекта
+Опционально:
+    а) клонировать проект из https://github.com/bashcod/okpd2.git
+    б) запустить composer install
+
+Обязательно:
 1. Подключить проект к БД PostgreeSQL. Изменить конфиг в файле config\db.php
 2. запустить команду в консоли php yii migrate
     2.a набрать в диалоге yes
